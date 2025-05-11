@@ -1,0 +1,743 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},p
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "accounts",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "accounts",
+    "model": "complaint"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "accounts",
+    "model": "notification"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "accounts",
+    "model": "review"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "investor",
+    "model": "investor"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "investor",
+    "model": "investmentoffer"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "projectOwner",
+    "model": "project"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "projectOwner",
+    "model": "projectfile"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "projectOwner",
+    "model": "projectowner"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "tzpgxawgpdl6s38n4ndq1057vgj5dwsr",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyHQBVY8eu83EBZWqRpISnsy_rtt0oOeJpn3Zt4ixHUpYe08hymLi9Di9NtRTE-uO8iPWO9NplaXeSK5K_KgXY4t8-t6uH8HJfayrTH7aDNa4oTDzVrgwXgFpNA4AkDeMtozAmsFSJrYgfHgNGpm5734fAHL2TbI:1uDOY6:FZ-fYWgSuDURThFtmKGdMaLiBWkSl4ENdGHG3jJo4Ac",
+    "expire_date": "2025-05-23T14:18:02.158Z"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add user",
+    "content_type": [
+      "accounts",
+      "user"
+    ],
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change user",
+    "content_type": [
+      "accounts",
+      "user"
+    ],
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete user",
+    "content_type": [
+      "accounts",
+      "user"
+    ],
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view user",
+    "content_type": [
+      "accounts",
+      "user"
+    ],
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add complaint",
+    "content_type": [
+      "accounts",
+      "complaint"
+    ],
+    "codename": "add_complaint"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change complaint",
+    "content_type": [
+      "accounts",
+      "complaint"
+    ],
+    "codename": "change_complaint"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete complaint",
+    "content_type": [
+      "accounts",
+      "complaint"
+    ],
+    "codename": "delete_complaint"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view complaint",
+    "content_type": [
+      "accounts",
+      "complaint"
+    ],
+    "codename": "view_complaint"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add notification",
+    "content_type": [
+      "accounts",
+      "notification"
+    ],
+    "codename": "add_notification"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change notification",
+    "content_type": [
+      "accounts",
+      "notification"
+    ],
+    "codename": "change_notification"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete notification",
+    "content_type": [
+      "accounts",
+      "notification"
+    ],
+    "codename": "delete_notification"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view notification",
+    "content_type": [
+      "accounts",
+      "notification"
+    ],
+    "codename": "view_notification"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add review",
+    "content_type": [
+      "accounts",
+      "review"
+    ],
+    "codename": "add_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change review",
+    "content_type": [
+      "accounts",
+      "review"
+    ],
+    "codename": "change_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete review",
+    "content_type": [
+      "accounts",
+      "review"
+    ],
+    "codename": "delete_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view review",
+    "content_type": [
+      "accounts",
+      "review"
+    ],
+    "codename": "view_review"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add investor",
+    "content_type": [
+      "investor",
+      "investor"
+    ],
+    "codename": "add_investor"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change investor",
+    "content_type": [
+      "investor",
+      "investor"
+    ],
+    "codename": "change_investor"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete investor",
+    "content_type": [
+      "investor",
+      "investor"
+    ],
+    "codename": "delete_investor"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view investor",
+    "content_type": [
+      "investor",
+      "investor"
+    ],
+    "codename": "view_investor"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add investment offer",
+    "content_type": [
+      "investor",
+      "investmentoffer"
+    ],
+    "codename": "add_investmentoffer"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change investment offer",
+    "content_type": [
+      "investor",
+      "investmentoffer"
+    ],
+    "codename": "change_investmentoffer"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete investment offer",
+    "content_type": [
+      "investor",
+      "investmentoffer"
+    ],
+    "codename": "delete_investmentoffer"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view investment offer",
+    "content_type": [
+      "investor",
+      "investmentoffer"
+    ],
+    "codename": "view_investmentoffer"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add project",
+    "content_type": [
+      "projectOwner",
+      "project"
+    ],
+    "codename": "add_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change project",
+    "content_type": [
+      "projectOwner",
+      "project"
+    ],
+    "codename": "change_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete project",
+    "content_type": [
+      "projectOwner",
+      "project"
+    ],
+    "codename": "delete_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view project",
+    "content_type": [
+      "projectOwner",
+      "project"
+    ],
+    "codename": "view_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add project file",
+    "content_type": [
+      "projectOwner",
+      "projectfile"
+    ],
+    "codename": "add_projectfile"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change project file",
+    "content_type": [
+      "projectOwner",
+      "projectfile"
+    ],
+    "codename": "change_projectfile"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete project file",
+    "content_type": [
+      "projectOwner",
+      "projectfile"
+    ],
+    "codename": "delete_projectfile"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view project file",
+    "content_type": [
+      "projectOwner",
+      "projectfile"
+    ],
+    "codename": "view_projectfile"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add project owner",
+    "content_type": [
+      "projectOwner",
+      "projectowner"
+    ],
+    "codename": "add_projectowner"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change project owner",
+    "content_type": [
+      "projectOwner",
+      "projectowner"
+    ],
+    "codename": "change_projectowner"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete project owner",
+    "content_type": [
+      "projectOwner",
+      "projectowner"
+    ],
+    "codename": "delete_projectowner"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view project owner",
+    "content_type": [
+      "projectOwner",
+      "projectowner"
+    ],
+    "codename": "view_projectowner"
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$WGODzl8Vxjxr1CPzDze8iq$UkfjsmrxSsEDjNdxsHFXHAEBN0VYwNck4v2E9F3Gm2Y=",
+    "last_login": "2025-05-09T14:18:02.156Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-05-09T14:17:47.683Z",
+    "role": "",
+    "language_preference": "ar",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]

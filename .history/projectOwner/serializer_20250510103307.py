@@ -1,0 +1,31 @@
+from rest_framework import serializers
+from .models import ProjectOwner, User
+
+
+class ProjectOwnerRegisterSerializer(serializers.ModelSerializer):
+    username = serializers.CharField(max_length=150)
+    email = serializers.EmailField()
+    password = serializers.CharField(write_only=True, style={'input_type': 'password'})
+    phone_number = serializers.CharField(max_length=20)
+    bio = serializers.CharField(allow_blank=True)
+    company_name = serializers.CharField(max_length=255)
+    profile_picture = serializers.ImageField(required=False)
+    id_card_picture = serializers.ImageField(required=False)
+    terms_agreed = serializers.CharField(required=True)  # سيتم إرسال النص الكامل مع الشروط
+
+    class Meta:
+        model = ProjectOwner
+        fields = ['username', 'email', 'password', 'phone_number', 'bio', 'company_name', 
+                  'profile_picture', 'id_card_picture', 'terms_agreed']
+
+    def create(self, validated_data):
+        user_data = validated_data.pop('user')
+        user = User.objects.create_user(
+            username=validated_data['username'],
+            email=validated_data['email'],
+            password=validated_data['password'],
+            role='owner',
+            phone_number=validated_data['phone_number']
+        )
+        project_owner = ProjectOwner.objects.create(user=user, **validated_data)
+        return project_owner
