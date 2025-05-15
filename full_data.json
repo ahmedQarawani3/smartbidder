@@ -193,6 +193,29 @@
   }
 },
 {
+  "model": "accounts.user",
+  "pk": 20,
+  "fields": {
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": false,
+    "date_joined": "2025-05-15T09:52:23.984Z",
+    "username": "sarah",
+    "email": "sarah@example.com",
+    "password": "pbkdf2_sha256$1000000$NaJyMRm7bHBHCrU1jqFvxW$UTOZL07qIetgp+mm8UMxG1ZEna2n9NY9NCYKljSGzGM=",
+    "role": "owner",
+    "language_preference": "ar",
+    "phone_number": "0988111345",
+    "created_at": "2025-05-15T09:52:23.984Z",
+    "updated_at": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
   "model": "projectOwner.projectowner",
   "pk": 1,
   "fields": {
@@ -233,6 +256,18 @@
   "pk": 4,
   "fields": {
     "user": 18,
+    "bio": "أنا صاحب فكرة تقنية ناشئة.",
+    "company_name": "شركة المستقبل للتقنيات",
+    "profile_picture": "",
+    "id_card_picture": "",
+    "terms_agreed": "أوافق على الشروط وسياسات الاستخدام"
+  }
+},
+{
+  "model": "projectOwner.projectowner",
+  "pk": 5,
+  "fields": {
+    "user": 20,
     "bio": "أنا صاحب فكرة تقنية ناشئة.",
     "company_name": "شركة المستقبل للتقنيات",
     "profile_picture": "",
